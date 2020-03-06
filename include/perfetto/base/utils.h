@@ -88,7 +88,7 @@ constexpr uid_t kInvalidUid = static_cast<uid_t>(-1);
 constexpr pid_t kInvalidPid = static_cast<pid_t>(-1);
 #endif
 
-constexpr size_t kPageSize = 4096;
+constexpr size_t kPageSize = 16384;
 constexpr size_t kMaxCpus = 128;
 
 template <typename T>
